@@ -1,33 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9137" started-at="2021-02-11T16:37:28 CST" finished-at="2021-02-11T16:37:37 CST">
+  <suite name="Default suite" duration-ms="18962" started-at="2021-02-22T17:20:00 CST" finished-at="2021-02-22T17:20:19 CST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9137" started-at="2021-02-11T16:37:28 CST" finished-at="2021-02-11T16:37:37 CST">
+    <test name="Default test" duration-ms="18962" started-at="2021-02-22T17:20:00 CST" finished-at="2021-02-22T17:20:19 CST">
       <class name="com.test.AddCategoryPageTest">
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.test.AddCategoryPageTest@2d6eabae]" name="SetUp" is-config="true" duration-ms="3763" started-at="2021-02-11T16:37:28 CST" finished-at="2021-02-11T16:37:31 CST">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.test.AddCategoryPageTest@2d6eabae]" name="SetUp" is-config="true" duration-ms="4618" started-at="2021-02-22T17:20:00 CST" finished-at="2021-02-22T17:20:04 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="EnterAddCategoryButton()[pri:0, instance:com.test.AddCategoryPageTest@2d6eabae]" name="EnterAddCategoryButton" duration-ms="606" started-at="2021-02-11T16:37:31 CST" finished-at="2021-02-11T16:37:32 CST">
+        <test-method status="PASS" signature="VerifyAddCustomerLabelTest()[pri:0, instance:com.test.AddCategoryPageTest@2d6eabae]" name="VerifyAddCustomerLabelTest" duration-ms="144" started-at="2021-02-22T17:20:04 CST" finished-at="2021-02-22T17:20:05 CST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- EnterAddCategoryButton -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.AddCategoryPageTest@2d6eabae]" name="tearDown" is-config="true" duration-ms="756" started-at="2021-02-11T16:37:32 CST" finished-at="2021-02-11T16:37:33 CST">
+        </test-method> <!-- VerifyAddCustomerLabelTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.AddCategoryPageTest@2d6eabae]" name="tearDown" is-config="true" duration-ms="713" started-at="2021-02-22T17:20:05 CST" finished-at="2021-02-22T17:20:05 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.test.AddCategoryPageTest@2d6eabae]" name="SetUp" is-config="true" duration-ms="3180" started-at="2021-02-11T16:37:33 CST" finished-at="2021-02-11T16:37:36 CST">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.test.AddCategoryPageTest@2d6eabae]" name="SetUp" is-config="true" duration-ms="4372" started-at="2021-02-22T17:20:05 CST" finished-at="2021-02-22T17:20:10 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="EnterNewCategoryTest()[pri:0, instance:com.test.AddCategoryPageTest@2d6eabae]" name="EnterNewCategoryTest" duration-ms="158" started-at="2021-02-11T16:37:36 CST" finished-at="2021-02-11T16:37:36 CST">
+        <test-method status="PASS" signature="EnterNewCategoryTest()[pri:1, instance:com.test.AddCategoryPageTest@2d6eabae]" name="EnterNewCategoryTest" duration-ms="149" started-at="2021-02-22T17:20:10 CST" finished-at="2021-02-22T17:20:10 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EnterNewCategoryTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.AddCategoryPageTest@2d6eabae]" name="tearDown" is-config="true" duration-ms="605" started-at="2021-02-11T16:37:36 CST" finished-at="2021-02-11T16:37:37 CST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.AddCategoryPageTest@2d6eabae]" name="tearDown" is-config="true" duration-ms="649" started-at="2021-02-22T17:20:10 CST" finished-at="2021-02-22T17:20:11 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.test.AddCategoryPageTest@2d6eabae]" name="SetUp" is-config="true" duration-ms="3193" started-at="2021-02-22T17:20:11 CST" finished-at="2021-02-22T17:20:14 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="EnterToggleAllButton()[pri:2, instance:com.test.AddCategoryPageTest@2d6eabae]" name="EnterToggleAllButton" duration-ms="98" started-at="2021-02-22T17:20:14 CST" finished-at="2021-02-22T17:20:14 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterToggleAllButton -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.AddCategoryPageTest@2d6eabae]" name="tearDown" is-config="true" duration-ms="613" started-at="2021-02-22T17:20:14 CST" finished-at="2021-02-22T17:20:14 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.test.AddCategoryPageTest@2d6eabae]" name="SetUp" is-config="true" duration-ms="3066" started-at="2021-02-22T17:20:14 CST" finished-at="2021-02-22T17:20:18 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="EnterAddCategoryButton()[pri:3, instance:com.test.AddCategoryPageTest@2d6eabae]" name="EnterAddCategoryButton" duration-ms="629" started-at="2021-02-22T17:20:18 CST" finished-at="2021-02-22T17:20:18 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterAddCategoryButton -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.AddCategoryPageTest@2d6eabae]" name="tearDown" is-config="true" duration-ms="634" started-at="2021-02-22T17:20:18 CST" finished-at="2021-02-22T17:20:19 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
